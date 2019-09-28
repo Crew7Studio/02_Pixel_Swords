@@ -12,7 +12,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{B88BC563-DF23-B1F8-B737-CDE8440FC195}</ProjectGuid>
+    <ProjectGuid>{B58DCA85-8AA6-2080-B6FC-1B450A49D5DA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -648,44 +648,38 @@
     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Grid.shader" />
     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Tilt_Shift_Hole.shader" />
     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_3D_Snow.shader" />
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/JOJU/TESTING/@UNITY001/2D/pixels00/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/JOJU/TESTING/@UNITY001/2D/pixels00/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/JOJU/TESTING/@UNITY001/2D/pixels00/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/JOJU/TESTING/@UNITY001/2D/pixels00/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/JOJU/TESTING/@UNITY001/2D/pixels00/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/JOJU/UNITY_PROJECTS/2D/02_Pixel_Swords/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Editor">
-      <HintPath>D:/JOJU/TESTING/@UNITY001/2D/pixels00/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+      <HintPath>D:/JOJU/UNITY_PROJECTS/2D/02_Pixel_Swords/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/JOJU/TESTING/@UNITY001/2D/pixels00/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/JOJU/UNITY_PROJECTS/2D/02_Pixel_Swords/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>D:/JOJU/UNITY_PROJECTS/2D/02_Pixel_Swords/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-weaver.Editor">
-      <HintPath>D:/JOJU/TESTING/@UNITY001/2D/pixels00/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+      <HintPath>D:/JOJU/UNITY_PROJECTS/2D/02_Pixel_Swords/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>D:/JOJU/TESTING/@UNITY001/2D/pixels00/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>D:/JOJU/UNITY_PROJECTS/2D/02_Pixel_Swords/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>D:/JOJU/TESTING/@UNITY001/2D/pixels00/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+      <HintPath>D:/JOJU/UNITY_PROJECTS/2D/02_Pixel_Swords/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>D:/JOJU/TESTING/@UNITY001/2D/pixels00/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>D:/JOJU/UNITY_PROJECTS/2D/02_Pixel_Swords/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>D:/JOJU/UNITY_PROJECTS/2D/02_Pixel_Swords/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>D:/JOJU/TESTING/@UNITY001/2D/pixels00/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>D:/JOJU/UNITY_PROJECTS/2D/02_Pixel_Swords/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
-      <HintPath>D:/JOJU/TESTING/@UNITY001/2D/pixels00/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+      <HintPath>D:/JOJU/UNITY_PROJECTS/2D/02_Pixel_Swords/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -873,20 +867,14 @@
     <Reference Include="Vuforia.UnityExtensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>D:/JOJU/TESTING/@UNITY001/2D/pixels00/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/JOJU/TESTING/@UNITY001/2D/pixels00/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/JOJU/UNITY_PROJECTS/2D/02_Pixel_Swords/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/JOJU/TESTING/@UNITY001/2D/pixels00/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/JOJU/UNITY_PROJECTS/2D/02_Pixel_Swords/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/JOJU/TESTING/@UNITY001/2D/pixels00/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>D:/JOJU/TESTING/@UNITY001/2D/pixels00/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>D:/JOJU/UNITY_PROJECTS/2D/02_Pixel_Swords/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>

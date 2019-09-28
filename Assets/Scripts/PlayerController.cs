@@ -311,9 +311,12 @@ public class PlayerController : MonoBehaviour
 
             yield return new WaitForSeconds(attackClick_EffectDelay);
 
+            if (enemy != null)
+            {
                 enemy.GetComponent<EnemyController>().moveSpeed = tempMoveSpeed;
 
-            hurtEnemyOnContact.EnemyHealthMechanics(enemy);
+                hurtEnemyOnContact.EnemyHealthMechanics(enemy);
+            }
             
             //Destroy(ray.transform.gameObject);
            // ray.transform.gameObject.GetComponent<EnemyHealthManager>().giveDamage(damageToGive);
